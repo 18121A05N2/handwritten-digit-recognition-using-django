@@ -1,0 +1,74 @@
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+div.block{
+    position: relative;
+    float : right;
+    width: 50%;
+    height: 100%;
+}
+div.right{
+    background-color: blanchedalmond;
+}
+div.left{
+    background-color: azure;
+}
+div.padding_block{
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 10mm;
+    text-align: center;
+}
+div.belowbox{
+    inherits: padding_block;
+    width: 50%;
+    height:50px;
+    float:right;
+    text-align: center;
+}
+div.container{
+    position: relative;
+    top:1.5cm;
+    height:50px;
+    width:70%;
+    left:15%;
+
+}
+button.button{
+    background-color :#40EE00;
+    border:solid 1px black ;
+    height: 30px;
+    border-radius: 5px;
+    font-size: large;
+}
+div.textlarge{
+    font-size: 2px;
+}
+div.percontainer{
+    padding:10%;
+    background-color: azure;
+    height: 80%;
+}
+div.bar{
+    padding :2%;
+    height: 6%;
+}
+div.full{
+    height: 100%;
+}
+div.roundbar{
+    height: 80%;
+    position: relative;
+    top:10%;
+    background-color: white;
+    width: 95%;
+    border-radius: 12px;
+    border: solid 1px #33BB00;
+    float:right;
+    overflow: hidden;
+}
+@keyframes example {
+    from {width: 0;}
+}
